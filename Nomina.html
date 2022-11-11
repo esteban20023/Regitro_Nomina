@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos.css">
+    
+</head>
+
+<body>
+    <form class="formulario">
+        <div class="contenedor">
+    <div>
+        <form action="">
+                <fieldset>
+                    <legend></legend>
+                    <legend></legend>
+                    <h1> INGRESE LOS DATOS DEL EMPLEADO</h1><br><br>
+                    <a href="Menu.html">INICIO</a><br><br>
+                    <label for="firstname">Nombres:</label><br>
+                    <input type="text" name="firstname" id="firstname" size="40" autofocus required
+                    pattern="[A-Za-z ]{2,40}"" placeholder=" ingrese su nombre"><br><br>
+                    <label for="lastname">Apellidos:</label><br>
+                    <input type="text" name="lastname" id="lastname" size="40" required pattern="[A-Za-z ]{2,40}""  
+                    placeholder=" ingrese su Apellido"><br><br>
+                    <label for="Document">Numero_de_documento:</label><br>
+                    <input type="text" name="Document" id="Document" required pattern="[0-20]{0,10}""
+                    placeholder=" ingrese su documento"><br><br>
+                    <label for="date"> Fecha_de_contratación:</label><br>
+                    <input type="date" name="date" id="date"><br><br>
+                    <label for="Direction">Ingrese_su_dirección:</label><br>
+                    <input type="text" name="Direction" id="Direction" size="40" required pattern="[A-Za-z-#]{2,40}""  
+                    placeholder=" Ingrese_su_dirección"><br><br>>
+                    <label for="quantity"> Dias_laborados:</label><br>
+                    <input type="text" id="quantity" name="quantity"  required
+                    pattern="[1,31]{0,5}"" min="1" max="31" placeholder="ingrese dias laborados"><br><br>
+                    <label for="overtime">¡HORAS_EXTARS!</label><br><br>
+                    <label for="overtime">Horas_extras_inicio</label><br>
+                    <input type="time" name="Horas_extras" id="Horas_extras"><br><br>
+                    <label for="overtime">Horas_extras_final</label><br>
+                    <input type="time" name="Horas_extras" id="Horas_extras"><br><br>
+                    <label for=""></label>
+                    <label for="commssion"> Comisión:</label><br>
+                    <input type="radio" id="commssion" name="Comisión" value="commssion">
+                     <label for="commssion"> Recibe Comisión</label><br>
+                     <input type="radio" id="commssion" name="Comisión" value="Comisión">
+                      <label for="commssion">No recibe Comisión </label><br><br>
+                    <label for="Salud y Pensión">Salud y Pensión:</label><br>
+                    <input type="checkbox" id="Salud" name="Salud" value="Salud">
+                    <label for="Salud y Pensión">Salud</label><br>
+                    <input type="checkbox" id="Pensión" name="Pensión" value="Pensión">
+                    <label for="Salud y Pensión">Pensión</label><br><br>
+                    <label for="Auxilio_Transporte">Cuenta_con_Auxilio_Transporte:</label><br>
+                    <input type="radio" id="Auxilio_Transporte" name="Auxilio_Transporte" value="Auxilio_Transporte">
+                    <label for="Auxilio_Transporte">Si recibe Auxilio_Transporte</label><br>
+                    <input type="radio" id="Auxilio_Transporte" name="Auxilio_Transporte" value="Auxilio_Transporte">
+                    <label for="Auxilio_Transporte">No recibe Auxilio_Transporte</label><br><br>
+                    <label for="Salary">Salario_a_pagar:</label><br>
+                    <input type="Salary" name="Salary" id="Salary" pattern="{1'000.000,5'000.000"
+                        placeholder="ingrese el salario a pagar"><br><br><br>
+                    <input type="submit" value="Enviar" class="boton">
+                    <p>¡MUCHAS GRACIAS POR SU SERVICIO Y SU ENTREGA A LA EMPRESA &#128077;!</p>
+
+                 
+            </fieldset>
+        </form>
+    </div>
+</div>
+    <br><br>
+</div>
+</form>
+</body>
+
+</html>

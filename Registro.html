@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Estilos.css">
+</head>
+<body>
+    <form class="formulario">
+        <form action="">          
+             <div class="contenedor">
+                 <fieldset>
+                     <legend></legend>
+                     <legend></legend>
+                     <h1>¡REGISTRARTE CON NOSOTROS!</h1><br>
+                       <a href="Menu.html">INICIO</a>    
+                     <h2>¡INGRESA TUS DATOS &#128513;!</h2><br>
+                     <label for="firstname">Nombres:</label><br>
+                     <input type="text" name="firstname" id="firstname" size="40" autofocus required pattern="[A-Za-z ]{2,40}""
+                        placeholder="ingrese su nombre"><br><br>
+                        <label for="lastname">Apellido:</label><br>
+                        <input type="text" name="lastname" id="lastname" size="40" required pattern="[A-Za-z ]{2,40}""  
+                                            placeholder=" ingrese su Apellido"><br><br>
+                        <label for="Document">Tipo_de_documento:</label><br>
+                        <select name="Document" id="Document"><br>
+                            <option value="Cedula_ciudadania">Cedula_ciudadania</option>
+                            <option value="Targeta_Identidad">Targeta_Identidad</option>
+                            <option value="pasaporte">pasaporte</option>
+                        </select><br><br>
+                        <label for="Document">Numero_de_documento:</label><br>
+                        <input type="number" name="Document" id="Document" size="40" required pattern="[0-0]{0,10}"
+                            placeholder=" ingrese su documento"><br><br>
+                        <label for="datetime">Fecha_de_nacimiento:</label><br>
+                        <input type="date" id="datetimen" name="datetime" max="2005-12-31" min="2000-01-01"><br><br>
+                        <label for="sex">Genero:</label><br>
+                        <select name="Sex" id="Sex"><br>
+                            <option value="MASCULINO">MASCULINO</option>
+                            <option value="FEMENINO">FEMENINO</option>
+                        </select><br><br>
+                        <label for="phone">Ingrese_su_Telefono:</label><br>
+                        <input type="number" id="phone" name="phone" required pattern="[0-10]{0,10}" placeholder="123-45-678-910"><br><br>
+                        <label for="Email">Ingrese_su_correo:</label><br>
+                        <input type="email" name="Email" id="Email" size="40" required pattern="[0-10]+@+*+[A-Za-z]{2,40}"
+                            placeholder="...edjimenez48@misena.edu.co"><br><br>
+                        <label for="password">Ingrese_su_contraseña:</label><br>
+                        <input type="password" name="password" id="password" required pattern="[A-Za-z-@-*-/]{0,10}" placeholder="ingrese su contraseña"><br><b>
+                        <label for="password">Confirmar_contraseña:</label><br>
+                        <input type="password" name="password" id="password" required pattern="[A-Za-z-@-*-/]{0,10}""
+                         placeholder="confirme su contraseña"><br><br>
+                        <label for="comment">Sugerencias:</label><br>
+                        <textarea name="comment" id="comment" cols="30" rows="10"  required patter="[A-Za-z]{2,50}" placeholder="tienes sugerencias..."></textarea><br><br>
+                        <input type="submit" value="INGRESAR &#128521;" class="boton">
+                        <div style="background-color: rgb(8, 247, 127);">
+                           <p>
+                            ¡GRACIAS POR REGISTRARTE CON NOSOTROS ESPEREMOS QUE DISFRUTES TU RECORRIDO!
+                                </p>
+                        </fieldset>
+                    </div>
+                        </form>
+                    </form>
+</body>
+
+</html>

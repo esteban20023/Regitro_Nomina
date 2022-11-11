@@ -1,0 +1,30 @@
+.contenedor{
+    background: url(imagenes/ef12bfb6a77a8c58a2d304f80fded954.jpg);
+    height: auto;
+    margin: 0%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+.formulario{
+   background: url(imagenes/fondo-pantalla-hojas-concepto-lamina-metalica_79603-942.webp);
+    height: auto;
+    margin: 0%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 1px;
+    
+}
+body{
+    background: url(imagenes/fondo-pantalla-hojas-concepto-lamina-metalica_79603-942.webp);
+    border-radius: 500px;
+}
+.FORMULARIO{
+    height: auto;
+    margin: 0%;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    padding: 1px;
+}
